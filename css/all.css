@@ -1,0 +1,101 @@
+#tabs {
+	BACKGROUND: #FFFFFF;
+	FLOAT: left;
+	MARGIN: 0px;
+	WIDTH: auto;
+	LINE-HEIGHT: normal;
+	
+	padding-left: 0px;
+}
+#tabs UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#tabs LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+
+
+
+#tabs A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; BACKGROUND: url(../images/tableftB.gif) no-repeat left top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: 8pt Arial, sans-serif; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+#tabs A SPAN {
+	PADDING-RIGHT: 10px;
+	DISPLAY: block;
+	PADDING-LEFT: 4px;
+	BACKGROUND: url(../images/tabrightB.gif) no-repeat right top;
+	FLOAT: left;
+	PADDING-BOTTOM: 2px;
+	COLOR: #000000;
+	PADDING-TOP: 5px;
+	cursor: hand;
+}
+#tabs A.active SPAN{
+    background-position: 100% -42px;
+    color: #FFFFFF;
+    float: left;
+}
+
+#tabs A:hover SPAN {
+	COLOR: #000000}
+#tabs A:hover {
+	BACKGROUND-POSITION: 0% -42px
+}
+#tabs A:hover SPAN {
+	BACKGROUND-POSITION: 100% -42px
+}
+/**
+#tabs a:active{
+	BACKGROUND-POSITION: 0% -42px; 
+}
+
+#tabs #active SPAN {
+	BACKGROUND-POSITION: 100% -42px; COLOR: #000000; BACKGROUND: url(images/includes/abrightB.gif) repeat right top;
+}
+.SPAN_active {
+	COLOR: #f00
+}**/
+#doll {
+	MARGIN: 0px;
+	WIDTH: 100%;
+	background-color: #FFCC00;
+	background-image: url(../images/doll.gif);
+	background-repeat: repeat-x;
+	padding: 0px;
+	height: 6px;
+	float: left;
+}
+
+#tabs #current a SPAN
+{
+	BACKGROUND-POSITION: 100% -42px;
+	COLOR: #fff;	
+	background-repeat: no-repeat right  top; FLOAT: left; 
+} 
+
+.gbutton
+{
+	font-size:12px;
+	font-family:Arial,sans-serif;
+	height:20px;
+	background-image:url(../images/butb.gif);
+	border-style:solid;
+	border-color:#DDDDDD;
+	border-width:1px;
+	background-color: #CCCCCC;
+	margin: 0px;
+	padding: 0px;
+}
+
+.user-home {
+	margin: 0px;
+	padding: 0px;
+	height: 358px;
+	width: 650px;
+	background-image: url(../images/log.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.clear{
+	clear:both;
+}

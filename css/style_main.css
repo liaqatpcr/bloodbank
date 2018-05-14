@@ -1,0 +1,257 @@
+@charset "utf-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p,a,pre,form,fieldset,input,textarea,p,blockquote,th,td,span,table,tr{
+margin:0;padding:0;
+}
+html{height:100%;}
+
+body{height:100%;}
+.table_info{color:#1B3E6D;}
+/****************Dashboard Styles.***********************/
+.clear{clear:both;}
+
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+	color: #FF0000;
+	text-align: left;
+
+}
+
+/* Page title */
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	color: #000000;
+	padding: 2px;
+	margin: 2px 0px 2px 0px;
+}
+/* Subheading 1 */
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.85em;
+	font-weight: bold;
+	color: #000000;
+	padding: 2px;
+	margin: 3px 0px 0px 0px;
+	background-color: #CCCCFF;
+}
+
+/* Subheading 2 */
+h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.88em;
+	color: #000000;
+	margin: 3px 2px 0px 2px;
+}
+
+/* Subheading 3 */
+h4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;;
+	font-weight: bold;
+	color: #000000;
+	margin: 2px;
+}
+
+/* Subheading 4 */
+h5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;;
+	font-style: italic;
+	color: #000000;
+	margin: 2px;
+}
+
+/* Subheading 5 */
+h6 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	margin: 2px;
+}
+
+/* Normal text  */
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	margin: 4px 2px 2px 2px;
+}
+
+/* Normal text - A substitute text for <p> tag when positioning is awkward - use with <span> tag  or convert an entire table by placing in the <table> tag */
+.normal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;;
+	color: #000000;
+}
+
+.button {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #000000;
+}
+
+.inputField {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;;
+	font-weight: normal;
+}
+
+/* MUST BE CONTAINED BY <ul>, or it will cascade into other classes*/
+.list {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;;
+	font-weight: normal;
+	color: #000000;
+	margin:  0px 0px 0px 30px;
+	list-style: outside disc;
+}
+
+
+
+table {
+	font-family: verdana, arial, tahoma;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	vertical-align: top;
+	border: 0px;
+
+}
+th {
+	text-align: left;
+	vertical-align: middle;
+	padding: 1px;
+	border-bottom: 1px solid #333399;
+	margin-bottom: 0px;
+	background-color: #E6E6FF;
+}
+
+
+
+th1 {
+	vertical-align: middle;
+	padding: 1px;
+	border-bottom: 1px solid #333399;
+	margin-bottom: 0px;
+	background-color: #E6E6FF;
+}
+td {
+	vertical-align: top;
+}
+
+table.main {
+	border: none;
+	border-width: 0;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+table.frame {
+	background-color: #999999;
+}
+.titlebar {
+	width: 100%;
+	font-size: 22px;
+	font-weight: bold;
+	color: #546D8F;
+	height: 20px;
+	border-bottom: 2px dotted blue;
+}
+
+
+
+a.hover {
+	text-decoration:none;
+}
+
+a.hover:hover {
+	text-decoration:underline;
+}
+A:link {text-decoration: none}
+A:visited {text-decoration: none}
+A:active {text-decoration: none}
+A:hover {text-decoration: underline; color: red;}
+
+.yellow { color:#FFD801;}
+.green { color:#008000;}
+hr {
+	line-height: 1px;
+	color: teal;
+}
+.reg_item{
+	/* background-image: url(/gui/img/skin/default/tableheader_gr.gif);*/
+	background-color: #eeeeee;
+	padding: 2px 6px 2px 6px;
+	border-bottom: 1px solid white;
+}
+/* -- Person registration form input area -- */
+.reg_input{
+	background-color: #ffffee;
+	padding-left: 6px;
+	border-bottom: 1px solid white;
+}
+.reg_list_titlebar{
+	background-color: #66ee66;
+	color: #000066;
+}
+#dash_dashboard_wrape .thumbnails span { /*left:90px; width:315px; height:315px;*/ }
+#dash_dashboard_wrape table,tr,td,div{-moz-box-sizing:content-box !important;}
+
+
+
+p {
+	margin-right: 20px;
+	margin-left: 0px;
+}
+.anti{ color:#006699;
+	   background-image: url(antispam.jpg);
+	   background-repeat: repeat;
+	}
+.head-bg {
+	background-image: url(images/includes/top-bg2.jpg);
+	background-repeat: repeat;
+	background-position: left top;
+	height: 40px;
+	background-color: #FFFFFF;
+}
+
+input{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+}
+
+select{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+}
+
+.saveBtn {
+background-color: #CCCCCC;
+background-image: url(gui/img/control/blue_aqua/en/en_savedisc.gif);
+font-size: 14px;
+}
+
+.cancelBtn {
+background-color: #CCCCCC;
+background-image: url(gui/img/control/blue_aqua/en/en_cancel.gif);
+font-size: 14px;
+}
+
+.bdrtable{
+	border: 1px solid #99CCFF;
+}
+
+.odd{
+	background-color: #efefef;
+}
+/* --lists item  alternate row -- */
+.even{
+	background-color: #dcdcdc;
+}

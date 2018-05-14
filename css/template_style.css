@@ -1,0 +1,603 @@
+/*
+ * template_style.css
+ *
+ * Cascading Style Sheet for displaying PacsOne Server web pages
+ *
+ * CopyRight (c) 2004 Xiaohui Li
+*/
+@media print {
+      textarea {
+        
+		 
+		 width:550px;
+		 height:200px;
+		
+		
+		
+      }
+}   
+body{
+margin:0;
+padding:0 10 0 10;
+font-family : Verdana, Arial, Helvetica, sans-serif;
+font-size : 10px;}
+
+A:link {text-decoration: none}
+A:visited {text-decoration: none}
+A:active {text-decoration: none}
+A:hover {text-decoration: underline; color: red;}
+
+TD {
+	font-family: verdana,arial; font-size: 11;
+}
+
+.bdrtable{
+	border: 1px solid #99CCFF;
+}
+/***********************
+
+th {
+	color: #FF0000;
+	background-color: #0066CC;
+}
+***************/
+hr{	
+	color: #ccc;
+	padding: 0px;
+	width: 95%;
+	hight: 1px;
+	margin: 0px;
+}
+h3{
+	font-family: Verdana, Arial, Helvetica, sans-serif;;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: lighter;
+	text-transform: capitalize;
+	color: #990000;
+	text-decoration: none;
+}
+/***********Header**************/
+.onepix{
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #999999;
+}
+.headercolor{
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: lighter;
+	color: #000000;
+	background-color: #fff;
+	
+	background-image: url(images/includes/gradtop.gif);
+}
+.headercolor2{
+	font-size: 10px;
+	font-style: normal;
+	font-weight: lighter;
+	color: #000000;
+	background-color: #CCFFFF;
+	background-image: url(images/includes/t-active0.gif);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+.headercolor2 a:link{
+	
+	text-decoration: none;
+}
+.headercolor2 a:visited{
+	
+	text-decoration: none;
+}
+.headercolor2 a:hover{
+	background-image: url(images/includes/t-active.gif);
+	text-decoration: underline;
+	background-position: top;
+}
+/***********footer*************/
+.footercolor{
+	font-size: 12px;
+	font-style: normal;
+	line-height: 41px;
+	font-weight: lighter;
+	color: #000000;
+	background-color: #99CCFF;
+	background-image: url(images/includes/drb.gif);
+	background-repeat: repeat-x;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+}
+SMALL{
+font: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;}
+A.negative {
+	color : Red;
+}
+.smallintraday {
+	font-weight : bold;
+	font-style : italic;
+	font-size : 12px;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.smallintradayComment {
+	color : #0000CC;
+	font-size : 12px;
+}
+.relatedLinks {
+	background-color : #8DAD8D;
+	color : White;
+	font-weight : bold;
+	font-size : 12px;
+	font-family : Verdana, Arial, Helvetica, sans-serif;;
+}
+.indexTitle {
+	background-color : #CCCCCC;
+	font-size : 12px;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;;
+}
+.indexAsOf {
+	font-weight : normal;
+	font-size : 11px;
+}
+.indexName {
+	font-weight : bold;
+	font-size : 11px;
+	color : Black;
+	font-family : Verdana, Arial, Helvetica, sans-serif;;
+}
+.indexHead {
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;;
+}
+.index {
+	font-size : 11px;
+}
+.smallerData {
+	font-size : 11px;
+}
+.deemphasized {
+	font-size : 11px;
+	color : #999999;
+}
+
+TD.border {
+	background-color : #F0F0F0;
+}
+TD.notes {
+    width : 20%;
+    font-size : 11px;
+}
+
+TR.content {
+	background-color : White;
+}
+A.toc {
+	color : Black;
+}
+A.small {
+	font-size : 11px;
+}
+.breadcrumbTop {
+	color : #336666;
+	font-size : 12px;
+	font-family : Verdana, Arial, Helvetica, sans-serif;;
+}
+.accountTypeHeader {
+	font-size : 12px;
+	font-weight : bold;
+	color : Black;
+	background-color : #F0F0F0;
+	line-height : 16px;
+}
+.breadcrumbLine {
+	background-color : #006666;
+	font-size : 1pt;
+}
+
+.breadcrumb1 {
+	font-size : 12px;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;;
+}
+.breadcrumbSmall {
+	font: 100 10px Verdana, Arial, Helvetica, sans-serif;; 
+	color: #000000;
+}
+.tocHeader {
+	font-size : 12px;
+	font-weight : bold;
+	color : White;
+	background-color : #8DAD8D;
+	font-family : Verdana, Arial, Helvetica, sans-serif;;
+}
+.unownedHeader {
+	background-color : #666666;
+	color : White;
+	font-size : 11px;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;;
+}
+.breadcrumbArrow {
+	font-size : 9px;
+	font-weight : bolder;
+}
+.spacer {
+	font-size : 1pt;
+	line-height : 5px;
+}
+.tocSelected {
+	font-size : 12px;
+	font-weight : bold;
+	background-color : White;
+}
+.tocSelectedBullet {
+	background-color : White;
+}
+.account {
+	font-weight : bold;
+}
+
+.headerBar {
+	background-color : #666666;
+	color : White;
+	font-size : 10.5px;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;;
+}
+
+.headerDate {
+	background-color : #666666;
+	color : White;
+	font-size : 12px;
+}
+.secondaryHeader {
+	background-color : #EEEEEE;
+	font-size : 12px;
+}
+.subHeader {
+	font-weight : bold;
+	background-color : #EEEEEE;
+}
+
+.blockTotal {
+	background-color : #F0F0F0;
+	font-weight : bold;
+}
+
+
+
+.note {
+	font-size : 11px;
+}
+.noteAst {
+	font-size : 11px;
+	font-style : italic;
+}
+.hiddenAccount {
+	font-size : 11px; 
+	color : #CCCCCC
+}
+
+.negativeNumber {
+	color : Red;
+}
+
+.positiveNumber {
+	color : Green;
+}
+
+
+.qaIdentifier {
+	color : White;
+	font-size : 11px;
+	background-color : White;
+	line-height : 1px;
+}
+.topLine {
+	background-color : #CC9900;
+	line-height: 1pt;
+	font-size : 1pt;
+}
+.pageName {
+	color : Black;
+	font-size : 16px;
+	font-weight : bold;
+}
+.updatedItem{
+		font-family: Verdana, Arial, Helvetica, sans-serif;;
+		font-size: small;
+		font-style: italic;
+		font-weight: bold;	
+}
+.smallerBoldData{
+	font-size: 11px;
+	font-weight: bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;;
+}
+.intraday {
+	font-weight : bold;
+	font-style : italic;
+}
+
+.intradayComment {
+	color : #0000CC;
+}
+.smallHeaderDate {
+	background-color : #666666;
+	color : White;
+	font-size : 11px;
+	font-family : Verdana, Arial, Helvetica, sans-serif;;
+}
+.smallHeaderBar {
+	background-color : #666666;
+	color : White;
+	font-size : 11px;
+	font-weight : bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;;
+}
+.headerText {
+color : White;
+}   
+.historyHeader {
+	background-color : #EEEEEE;
+	font-size : 10.5px;
+}
+.topLinks {
+	font-size : 12px;
+}
+.greyLine  				{font-size: 1pt; line-height: 1pt;	background-color : #EEEEEE;}
+.clearLine  {
+	font-size : 1pt;
+	background-color : #FFFFFF;
+}
+.blackLine				{font-size : 1pt; line-height: 1pt;	background-color : #999999;}
+.headerBar2 {
+	background-color : #cccccc;
+	font-size : 10.5px;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;;
+}
+.blueLine				{font-size : 1pt; line-height: 1pt;}
+.FullViewLinks {
+	background-color : #000080;
+	color : White;
+	font-weight : bold;
+	font-size : 12px;
+	font-family : Verdana, Arial, Helvetica, sans-serif;;
+}
+.FullViewContent {
+	background-color : #F0F0F0;
+	font-size : 11px;
+}
+.FullViewSpacer {
+	font-size : 1pt;
+	background-color : #F0F0F0;
+}
+.bodyf {
+ font-family : Verdana, Arial, Helvetica, sans-serif;;
+ font-size : 11px;
+ color : #000000;
+}
+.smallerDataNegative {
+	font-size : 11px;
+	color : red;
+}
+.subHeaderNegative {
+	font-weight : bold;
+	background-color : #EEEEEE;
+	color : red;
+}
+.level1 {
+        color:  #006666; 
+		font-size : 13px;
+		font-family : Verdana, Arial, Helvetica, sans-serif;;
+}
+.brokerageIntraday{	font-weight:bold;
+}
+/**********************************************/
+/**********************************************/
+.ean {
+	color : #000;
+	font-size : 12px;
+	font-weight:bold;
+	background-color:#CCCCCC;
+	padding: 5px 10px 5px 10px;
+	
+	}
+.ean a:link{
+	color : #000;
+	background-color:#CCCCCC;
+	padding: 5px 10px 5px 10px;
+	}
+.ean a:visited{
+	color : #000;
+	padding: 5px 10px 5px 10px;
+	}
+.ean a:active{
+	color : #fff;
+	font-size : 12px;
+	font-weight:bold;
+	background-image: url(images/includes/gradtop.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-color:#666666;
+	padding: 5px 10px 5px 10px;	
+}
+.ean a:hover{
+	color : #fff;
+	font-size : 12px;
+	font-weight:bold;
+	background-image: url(images/includes/gradtop.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-color:#666666;
+	padding: 5px 10px 5px 10px;	
+}
+.eanOn {
+	color : #fff;
+	font-size : 12px;
+	font-weight:bold;
+	background-image: url(images/includes/rcnr.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-color:#666666;
+	padding: 5px 10px 5px 10px;
+	
+	
+}
+
+.listhead {
+	background-color: #f2f2f2;
+	font-family: Verdana, Arial, Helvetica, sans-serif;;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: lighter;
+	color: #000000;
+	text-decoration: none;
+	height: 20px;
+}
+/**********************************************/
+/**********************************************/
+.TabSelected {
+	background-color : #666666;
+	color : #0066CC;
+	font-size : 12px;
+	font-weight:bold;
+	background-image: url(images/includes/t-active.gif);
+	background-repeat: repeat-x;
+	background-position: right top;
+}
+.TabNotSelected {
+	
+	background-image: url(images/includes/t-active0.gif);
+	background-repeat: repeat-x;
+	background-position: right top;
+}
+.TabNotSelectedText {
+	color : #000;
+	font-size : 12px;
+	font-weight:bold;
+}
+.StudyNotReviewed {
+	background-color : #CCFFFF;
+	color : Black;
+	font-size : 10px;
+	font-weight:bold;
+}   
+
+.StudyFollowup {
+	background-color : #FFCCFF;
+	color : Black;
+	font-size : 10px;
+	font-weight:bold;
+}
+
+/********************************
+.Text					{font: 100 13px Arial,Helvetica;}
+.Header					{font: 700 13px Arial,Helvetica;}
+.SmallText				{font: 100 11px Arial,Helvetica;}
+.SmallTextHeader		{font: 700 12px Arial,Helvetica;}
+.TextTableTitle			{font: 700 11px Verdana; background:#666666; color:white;}
+.ArticleHeader			{font: 700 15px Arial,Helvetica; color:#666666;}
+.Data					{font: 100 12px Verdana,Arial,Helvetica;}
+.DataHeader				{font: 700 12px Verdana,Arial,Helvetica;}
+.SmallData				{font: 100 11px Verdana,Arial,Helvetica;}
+.SmallDataHeader		{font: 700 11px Verdana,Arial,Helvetica;}
+.SmallestData			{font: 100 10px Verdana,Arial,Helvetica;}
+.SmallestDataHeader		{font: 700 10px Verdana,Arial,Helvetica;}
+.DataTableBorder		{border: 1px; background: #CCCCCC;}
+.DataHeaderBackground	{font: 700 12px Verdana,Arial,Helvetica; background: #666666;}
+.DataTableTitle			{font: 700 12px Verdana,Arial,Helvetica; background: #666666; color: white;}
+.TOCbg					{background-color:#e3e9e3;layer-background-color:#e3e9e3;}
+.TOCLink				{font: 100 13px Arial,Helvetica; color: #000000;}
+.TOCSectionHeader		{font: 700 12px Verdana,Arial,Helvetica; background: #8DA98D; color: white;}
+.TOCSubSectionHeader	{font: 700 12px Verdana,Arial,Helvetica; color: #336666;}
+.TOCSelected			{font: 700 12px Arial; background:white;}
+.TOCLev3SectionHeader	{font: 700 11px Verdana,Arial,Helvetica; background: #C6D7C6; color: black;}
+.TOCThirdLevel			{font: 100 11px Verdana,Arial,Helvetica;}
+.TOCThirdLevelSelected	{font: 700 11px Verdana,Arial,Helvetica;}
+.TOCLabel1				{font: 700 12px Verdana,Arial,Helvetica; color: #336666;}
+.TOCLabel2				{font: 100 11px Verdana,Arial,Helvetica; color: black;}
+.SidebarTitle			{font: 700 12px Arial,Helvetica; color:white;}
+.SidebarLink  			{font: 100 12px Arial,Helvetica;}
+.PageTitle				{font: 700 16px Arial,Helvetica;}
+.Breadcrumb				{font: 100 10px Verdana,Arial,Helvetica; color:#666666;}
+.BreadcrumbTopLevel		{font: 100 12px Verdana,Arial,Helvetica; color:#336666;}
+.BreadcrumbSecondLevel	{font: 100 12px Arial,Helvetica; color:#000000;}
+.BreadcrumbSelected		{font: 700 12px Arial,Helvetica;}
+.Footnote				{font: 100 11px Arial,Helvetica;}
+.TabText	  {font: 700 13px Verdana,Helvetica;color:white;}
+.TabTextSelected  {font: 700 13px Verdana,Helvetica;color:black;}
+.bullet					{color:#cc9900;}
+
+BODY					{color: black;background-color:white;layer-background-color:white;}
+A						{color: #333399;}
+SUP						{font: 100 10px Verdana,Arial,Helvetica; color: #333333; vertical-align: super;}
+
+
+.DataTableBorder2  				{font-size: 1pt; line-height: 1pt;	background-color : #CCCCCC;}
+.DataHeaderGrey				{font: 700 12px Verdana,Arial,Helvetica;  background:#f0f0f0;}
+TH						{font: 100 13px Helvetica, sans-serif;}
+
+.DataTableTitleDate 	{font: 12px Verdana,Arial,Helvetica; background: #666666; color: white;}
+.SmallerDataTableTitle 	{font: 11px Verdana,Arial,Helvetica; background: #666666; color: white;}
+.white			{color: white;}	
+.BgWhite			{background-color: #FFFFFF;}
+.BgLightGrey		{background-color: #F0F0F0;}
+.smallTextNegative		{font: 100 11px Arial,Helvetica;color: red;}
+.DataTableTitleDate		{font: 100 12px Arial,Helvetica; background: #666666; color: white;}
+.deemphasizedBold		{font: 700 11px Verdana,Arial,Helvetica; color: #999999;}
+*********************************/
+/*
+This style is effecting html editor on studynotes.php page
+form {
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 30px;
+	
+}
+*/
+
+p {
+	margin-right: 20px;
+	margin-left: 0px;
+}
+.anti{ color:#006699;
+	   background-image: url(antispam.jpg);
+	   background-repeat: repeat;
+	}
+.head-bg {
+	background-image: url(images/includes/top-bg2.jpg);
+	background-repeat: repeat;
+	background-position: left top;
+	height: 40px;
+	background-color: #FFFFFF;
+}
+
+input{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+}
+
+select{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+}
+
+.saveBtn {
+background-color: #CCCCCC;
+background-image: url(gui/img/control/blue_aqua/en/en_savedisc.gif);
+font-size: 14px;
+}
+
+.cancelBtn {
+background-color: #CCCCCC;
+background-image: url(gui/img/control/blue_aqua/en/en_cancel.gif);
+font-size: 14px;
+}
+
